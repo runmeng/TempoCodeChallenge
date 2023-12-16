@@ -11,6 +11,7 @@
   
   --Kotlin: 1.8.10
 
+
 2) I have generate a jar file of my Kotlin project, after download it from gitHub, please open TempoCodeChallenge folder in your terminal and Run Command: java -jar TempoCodeAssessment-0.0.1-SNAPSHOT.jar to start the program, please make sure use java 17 or newer version to run this program.
 
 3).If you want to start the program in your IDE directly, please first update the dependencies in build.gradle.kts file, then make sure your configuration matches with what I mentioned above, then you can run the the file TempoCodeAssessmentApplication.kt in src/main/kotlin/com/example/tempocodeassessment
