@@ -43,6 +43,7 @@ I put all test Case is src/test/kotlin/com.example/tempocodeassessment/controlle
 When i execute the role and abilities API(http://localhost:8080/user/userId/role), the process takes long time to get the result(1~2 minutes!) that's because if I want to know if this user in a team, I need to iterate every team's datail information and then check teamMembers array to see if this user in the team? The time complexity is O(n^2), and as the users and teams numbers go up, the query time will be even longer. To address this issue, I have several suggestion:
 
 1)For each user, add an teams column in the table, which contains all the teams this user belongs to. It will reduce the time complexity of query the user's teams to O(n)
+
 2)In teams API, for each member in this team, also associate the user with an role. This approach could make the user's role more flexible, for example, same user could play different role in different teams.
 
 
