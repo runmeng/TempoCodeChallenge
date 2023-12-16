@@ -1,15 +1,19 @@
 # TempoCodeChallenge
 1.To run the code
 
-1) Configuration 
+1) Configuration
+
   --Java version : 17 or newer
+  
   --Spring Boot: v3.2.0 
+  
   --Gradle: 8.5
+  
   --Kotlin: 1.8.10
 
-a. I have generate a jar file of my Kotlin project, after download it from gitHub, please open TempoCodeChallenge folder in your terminal and Run Command: java -jar TempoCodeAssessment-0.0.1-SNAPSHOT.jar to start the program, please make sure use java 17 or newer version to run this program.
+2) I have generate a jar file of my Kotlin project, after download it from gitHub, please open TempoCodeChallenge folder in your terminal and Run Command: java -jar TempoCodeAssessment-0.0.1-SNAPSHOT.jar to start the program, please make sure use java 17 or newer version to run this program.
 
-b.If you want to start the program in your IDE directly, please first update the dependencies in build.gradle.kts file, then make sure your configuration matches with what I mentioned above, then you can run the the file TempoCodeAssessmentApplication.kt in src/main/kotlin/com/example/tempocodeassessment
+3).If you want to start the program in your IDE directly, please first update the dependencies in build.gradle.kts file, then make sure your configuration matches with what I mentioned above, then you can run the the file TempoCodeAssessmentApplication.kt in src/main/kotlin/com/example/tempocodeassessment
 
 After successfully run the project, you can open http://localhost:8080/teams or http://localhost:8080/users in your brower, if the project works well, you will get data same as https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/teams or https://cgjresszgg.execute-api.eu-west-1.amazonaws.com/users  since I have write functions in my controller class to read data and show it through restful api.
 
